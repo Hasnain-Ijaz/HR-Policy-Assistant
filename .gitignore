@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Secrets and environment files
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Model/cache files
+.cache/
+.cache_huggingface/
+huggingface/
+sentence_transformers/
+*.faiss
+*.index
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
