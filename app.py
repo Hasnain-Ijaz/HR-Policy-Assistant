@@ -255,7 +255,7 @@ with st.sidebar:
     uploaded_file = st.file_uploader(
         "Choose an HR Policy PDF",
         type=["pdf"],
-        help=f"Text-based PDF only. Maximum file size: {MAX_PDF_MB} MB.",
+        help=f"Text-based PDF only. Maximum file size: 25 MB.",
     )
     st.caption(f"Supported: PDF • Up to {MAX_PDF_MB} MB • Up to {MAX_PAGES} pages")
     st.divider()
